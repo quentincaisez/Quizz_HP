@@ -1,0 +1,23 @@
+body{
+  background-color: lightgray;
+}
+
+form{
+  width: 50%;
+    margin: 0 auto;
+}
+legend{
+  font-weight: bold;
+}
+
+fieldset{
+  margin-top:10px;
+}
+.boutoncenter{
+  width: 50px;
+  margin: 0 auto;
+}
+.center{
+  width: 450px;
+  margin: 0 auto;
+}

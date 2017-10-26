@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="./script.php" class="flex-box">
+
+      <div class="center">
+      Nom : <input type="text" name="Nom" placeholder="Nom....">
+      Prénom : <input type="text" name="Prénom" placeholder="Prenom...." > <br><br><br>
+    </div>
+
+    <fieldset>
+      <legend>Quel est l'intitulé du 6ème tome d'harry potter  </legend>
+      Harry Potter à l'école des sorciers <input type="radio" name="hp6" value="hpes" checked><br>
+      Harry Potter et la chambre des secrets <input type="radio" name="hp6" value="hpcs"><br>
+      Harry Potter et les reliques de la mort<input type="radio" name="hp6" value="hprm"><br>
+      Harry Potter et Harry Potter et le Prince de sang-mêlé<input type="radio" name="hp6" value="hppsm">
+    </fieldset>
+
+    <fieldset>
+      <legend>Où se situe le chateau dans le film Harry Potter</legend>
+        Angleterre <input type="radio"  name="position" value="angleterre" checked><br>
+        Ecosse <input type="radio" name="position" value="ecosse"><br>
+        Irlande <input type="radio" name="position" value="irlande"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Choissisez parmis les proppositions la maison qui existe</legend>
+        La bonne maison est :
+        <select name="ecole">
+          <option value="serpentard">Serpentard</option>
+          <option value="grayford">Grayford</option>
+          <option value="serdaigle">Serdaigle</option>
+          <option value=" beauxbâtons"> Beauxbâtons</option>
+          <option value=" durmstrang" selected> Durmstrang</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Quel est la femme d'harry Potter à la fin du film </legend>
+      Vous pensez que c'est :
+      <select name="femme">
+          <option value="hermione">Hermione Granger</option>
+          <option value="ginny">Ginny Weasley</option>
+          <option value="luna">Luna Lovegood</option>
+          <option value="fleur">Fleur Delacour</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Quelles sont les reliques célèbres qui ont marqué le 7ème roman d'harry Potter</legend>
+        la baguette de sureau <input type="checkbox" name="rea" value="bs"><br>
+        la baguette de ta mère<input type="checkbox" name="reb" value="bm" checked><br>
+        la cape d'invisibilité<input type="checkbox" name="rec" value="ci"><br>
+        le balais magique : éclair de feu <input type="checkbox" name="red" value="edf"><br>
+        le balais magique numéro 2 : éclair à la vanille<input type="checkbox" name="ree" value="ecv"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Comment s'appel le train qui va à Poudlard</legend>
+      le train s'appel :
+      <select name="train">
+          <option value="magique">Poudlard Magique</option>
+          <option value="transilvania">Poudlard Transilvania</option>
+          <option value="express">Poudlard Express</option>
+          <option value="society">Poudlard society</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Quel est l'année de production du premier harry Potter ? </legend>
+      2000 <input type="radio"  name="annee" value="2000" checked><br>
+      2001 <input type="radio"  name="annee" value="2001"><br>
+      2002 <input type="radio"  name="annee" value="2002"><br>
+      2003 <input type="radio"  name="annee" value="2003"><br>
+      je sais pas cette question me fait chier <input type="radio"  name="annee" value="2004"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Quel est le moyen de tuer le Basilic dans Harry Potter et la chambre des secrets</legend>
+        Baguette magique <input type="radio"  name="basilic" value="bm" checked><br>
+        Epée de griffondor <input type="radio"  name="basilic" value="eg"><br>
+        Le phoenix magique <input type="radio"  name="basilic" value="phm"><br>
+        Ca quizz devient de plus en plus relou ... <input type="radio"  name="basilic" value="relou"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Quels sont les personnages de la sage qui meurt </legend>
+        Dobby <input type="checkbox"  name="meurta" value="dobby" checked><br>
+        Mon poisson : stp ne choisit pas cette réponse ... <input type="checkbox"  name="meurtb" value="poisson"><br>
+        Hedwig  : bizarre comme nom quand même <input type="checkbox"  name="meurtc" value="hedwig"><br>
+        Hermione : non ne pense pas à ca quand même ca serait encore plus triste que mon poisson <input type="checkbox"  name="meurtd" value="her"><br>
+        Drago malfoy : trop un faible quand même ce type <input type="checkbox"  name="meurte" value="drago"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>De quel maison est cedric Diggory dans la coupe de feu</legend>
+      <select name="cedric">
+        <option value="serpentard">Serpentard</option>
+        <option value="griffondor">Griffondor</option>
+        <option value="poufsouffle">Poufsouffle</option>
+        <option value="serdaigle">Serdaigle</option>
+        <option value="hum">imagine bien ...</option>
+      </select>
+    </fieldset>
+    <div class="boutoncenter">
+      <input type="submit" value="Envoyer">
+      <input type="reset" value="reset">
+    </div>
+    </form>
+
+
+  </body>
+</html>
